@@ -1,0 +1,53 @@
+/* css colour hex codes 
+#F25EB0 pink
+#D996C1 mauve
+##344f4d dark green
+#8FD9CB light green
+#F2F2F2 off white
+
+*/
+
+body {
+    background-color: #F2F2F2;
+    margin: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-two);
+    --color-main-font: #F25EB0;
+    font-size: medium;
+    --color-one: #F25EB0;
+    --color-two: #D996C1;
+    --color-three: #3e6966;
+    --color-four: #8FD9CB;
+    --color-five: #F2F2F2;
+}
+
+h1 {
+    color: var(--color-four);
+}
+
+.card-title {
+    color: var(--color-three);
+}
+
+.card-text {
+    color: var(--color-three);
+}
+
+.btn .btn-primary {
+    background-color: #344f4d;
+    color: white;
+}
+
+.card-img-top {
+    margin: auto;
+  padding: 10px;
+    height: 64px;
+    width: 64px;
+}
+
